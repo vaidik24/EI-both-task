@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // or "ES6"
+    "target": "ES6",
+    "moduleResolution": "node",
+    "outDir": "./dist", // Output directory for compiled JS
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
